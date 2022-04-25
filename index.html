@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie posters search engine!</title>
+</head>
+<body>
+<h1>welcome to our engine search, please enter a movie name: </h1>
+<form action="{{ url_for('handle_data') }}" method="post">
+    <input type="text" name="projectFilepath">
+    <input type="submit">
+</form>
+
+<image src='/posters/file'>
+</body>
+</html>
