@@ -5,7 +5,7 @@ import requests
 from pymongo import MongoClient
 
 
-client = MongoClient("localhost", 27017)
+client = MongoClient("db", 27017)
 
 db = client['poster_name']
 
